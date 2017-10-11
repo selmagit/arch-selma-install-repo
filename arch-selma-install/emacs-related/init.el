@@ -853,7 +853,7 @@ used with a prefix argument (C-u), doesn't switch back afterwards."
 
 ;;; custom common music menus for slime
 
-(add-to-list 'load-path "~/quicklisp/local-projects/cm-incudine/etc/emacs/")
+(add-to-list 'load-path "~/quicklisp/local-projects/cm/etc/emacs/")
 
 (require 'cm)
 
