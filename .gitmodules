@@ -9,7 +9,7 @@
 	url = https://github.com/takagi/cl-coroutine.git
 [submodule "arch-selma-install/cl-pkgs/cm-incudine"]
 	path = arch-selma-install/cl-pkgs/cm-incudine
-	url = git@github.com:ormf/cm-incudine.git
+	url = https://github.com/ormf/cm-incudine.git
 [submodule "arch-selma-install/cl-pkgs/cm-utils"]
 	path = arch-selma-install/cl-pkgs/cm-utils
 	url = https://github.com/ormf/cm-utils.git
