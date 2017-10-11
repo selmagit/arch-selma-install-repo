@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo pacman -S --needed firefox emacs snd sbcl w3m supercollider lilypond qsynth qtractor soundfont-fluid
+sudo pacman -S --needed firefox emacs snd sbcl w3m supercollider lilypond qsynth qtractor soundfont-fluid portmidi
 sudo mkdir -p /usr/local/share/emacs/site-lisp
 sudo mkdir -p /usr/local/share/doc
 mkdir -p $HOME/.snd.d
@@ -25,6 +25,7 @@ cd scripts
 ./emacs-pkg-install.sh company
 ./emacs-pkg-install.sh el-swank-fuzzy
 ./emacs-pkg-install.sh ido-ubiquitous
+./emacs-pkg-install.sh igrep
 ./emacs-pkg-install.sh paredit
 ./emacs-pkg-install.sh rainbow-delimiters
 ./emacs-pkg-install.sh w3m

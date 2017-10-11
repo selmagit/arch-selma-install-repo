@@ -6,4 +6,4 @@ then
   exit 1
 fi
 
-emacs --batch --eval "(defconst pkg-to-install '$1)" -l emacs-pkg-install.el
+emacs --batch --eval "(defconst pkg-to-install '$1)" -l ../emacs-related/emacs-pkg-install.el
