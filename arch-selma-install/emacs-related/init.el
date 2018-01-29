@@ -865,15 +865,15 @@ used with a prefix argument (C-u), doesn't switch back afterwards."
 ;;;; ------ Begin  supercollider initialization -------
 
 
-(require 'w3m)
-(eval-after-load "w3m"
-  '(progn
-     (define-key  w3m-mode-map [left] 'backward-char)
-     (define-key w3m-mode-map [right] 'forward-char)
-     (define-key w3m-mode-map [up] 'previous-line)
-     (define-key w3m-mode-map [down] 'next-line)))
+;;; (require 'w3m)
+;; (eval-after-load "w3m"
+;;   '(progn
+;;      (define-key  w3m-mode-map [left] 'backward-char)
+;;      (define-key w3m-mode-map [right] 'forward-char)
+;;      (define-key w3m-mode-map [up] 'previous-line)
+;;      (define-key w3m-mode-map [down] 'next-line)))
 
-(require 'sclang)
+;;; (require 'sclang)
  
 
 ;;;; ------ End  supercollider initialization -------

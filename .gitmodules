@@ -31,3 +31,6 @@
 [submodule "arch-selma-install/cl-pkgs/simple-utils"]
 	path = arch-selma-install/cl-pkgs/simple-utils
 	url = https://github.com/byulparan/simple-utils.git
+[submodule "arch-selma-install/cl-pkgs/sol"]
+	path = arch-selma-install/cl-pkgs/sol
+	url = https://selma.hfmdk-frankfurt.de/git/orm.finnendahl/sol.git
